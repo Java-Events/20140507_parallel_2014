@@ -191,7 +191,7 @@
         <profile>
             <id>junit</id>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <build>
                 <plugins>
@@ -228,7 +228,7 @@
         </profile>
         <profile>
             <activation>
-                <activeByDefault>true</activeByDefault>
+                <activeByDefault>false</activeByDefault>
             </activation>
             <id>arquillian_weld-ee-embedded-11</id>
             <dependencies>
