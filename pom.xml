@@ -40,14 +40,14 @@
     <dependencyManagement>
         <dependencies>
 
-            <!--<dependency>-->
-                <!--<groupId>org.apache.commons</groupId>-->
-                <!--<artifactId>commons-math3</artifactId>-->
-                <!--<version>3.2</version>-->
-                <!--<scope>compile</scope>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-math3</artifactId>
+                <version>3.2</version>
+                <scope>compile</scope>
+            </dependency>
 
-            <!--&lt;!&ndash; Weld Container &ndash;&gt;-->
+            <!-- Weld Container -->
             <!--<dependency>-->
                 <!--<groupId>org.jboss.weld</groupId>-->
                 <!--<artifactId>weld-core-bom</artifactId>-->
@@ -74,31 +74,31 @@
                 <!--<version>1.7.5</version>-->
             <!--</dependency>-->
 
-            <!--<dependency>-->
-                <!--<groupId>junit</groupId>-->
-                <!--<artifactId>junit</artifactId>-->
-                <!--<version>4.11</version>-->
-                <!--<scope>test</scope>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+                <scope>test</scope>
+            </dependency>
 
 
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>org.apache.commons</groupId>-->
-            <!--<artifactId>commons-math3</artifactId>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>log4j</groupId>-->
             <!--<artifactId>log4j</artifactId>-->
         <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>junit</groupId>-->
-            <!--<artifactId>junit</artifactId>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
 
 
     </dependencies>
@@ -385,9 +385,9 @@
     <!--<ciManagement>-->
         <!--<system>Jenkins</system>-->
         <!--<url>http://jenkins.rapidpm.org/job/rapidpm-modules/</url>-->
-        <!--&lt;!&ndash;<notifiers>&ndash;&gt;-->
-        <!--&lt;!&ndash;<notifier></notifier>&ndash;&gt;-->
-        <!--&lt;!&ndash;</notifiers>&ndash;&gt;-->
+        <!--<notifiers>-->
+        <!--<notifier></notifier>-->
+        <!--</notifiers>-->
     <!--</ciManagement>-->
     <licenses>
         <license>
