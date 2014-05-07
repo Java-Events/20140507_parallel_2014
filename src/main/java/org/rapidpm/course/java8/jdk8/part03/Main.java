@@ -75,8 +75,8 @@ public class Main extends Application {
         final ObservableList<XYChart.Series> data = lineChart.getData();
 
         data.add(createNextSeries("Serial", warmUp("Serial", new WorkerSerial())));
-        data.add(createNextSeries("Threads", warmUp("Threads", new WorkerParallelThreads())));
-        data.add(createNextSeries("ExecutorService", warmUp("ExecutorService", new WorkerParallelExecutorService(executorService))));
+//        data.add(createNextSeries("Threads", warmUp("Threads", new WorkerParallelThreads())));
+//        data.add(createNextSeries("ExecutorService", warmUp("ExecutorService", new WorkerParallelExecutorService(executorService))));
 //        data.add(createNextSeries("Streams", warmUp("Streams", new WorkerParallelStreams())));
 //        data.add(createNextSeries("WorkerJDK8", warmUp("WorkerJDK8", new WorkerJDK8(){})));
 
